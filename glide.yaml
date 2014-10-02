@@ -1,0 +1,5 @@
+package: github.com/technosophos/crazysquirrel
+import:
+  - package: github.com/Masterminds/cookoo
+  - package: github.com/lann/builder
+  - package: github.com/lann/squirrel
