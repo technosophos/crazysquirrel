@@ -17,7 +17,7 @@ $ go get github.com/technosophos/crazysquirrel/db
 
 Or, for [glide](https://github.com/Masterminds/glide):
 
-```
+```yaml
 package: your/package/name
 import:
   - package: github.com/Masterminds/cookoo
