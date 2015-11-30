@@ -48,9 +48,10 @@ Usage:
 package db
 
 import (
-	"github.com/Masterminds/cookoo"
-	"github.com/lann/squirrel"
 	"database/sql"
+
+	"github.com/Masterminds/cookoo"
+	"github.com/Masterminds/squirrel"
 )
 
 const (
@@ -60,6 +61,8 @@ const (
 	DbRunner = "db.Runner"
 	// Key for getting the Squirrel StatementBuilder.
 	DbBuilder = "db.Builder"
+	// Key for getting the DB driver.
+	DbDriver = "db.Driver"
 )
 
 // Config provides configuration options to SetupDatasource.
