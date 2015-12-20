@@ -102,7 +102,7 @@ func SetupDatasource(c cookoo.Context, db *sql.DB, cfg Config) {
 
 	c.AddDatasource(DbObj, db)
 	c.AddDatasource(DbRunner, sc)
-	c.AddDatasource(DbBuilder, builder)
+	c.AddDatasource(DbBuilder, &builder)
 }
 
 // Builder fetches the Squirrel statement builder datasource.
